@@ -1,0 +1,72 @@
+html * {
+    font-size: 16px;
+    line-height: 1.625em;
+    font-family: Nunito, sans-serif;
+}
+html header{
+    background-color: lightblue;
+    display: table-cell;
+}
+textarea {
+    width: 100%;
+    display: block;
+    
+}
+body{
+    margin:0
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    width: 12%;
+    margin: 1px;
+}
+.form {
+    
+    display: grid;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 20px;
+    width: 60%;
+}
+
+.divCell {
+    position: relative;
+    text-align: left;
+}
+
+.formInput{
+    width: 100%
+}
+.multispanInput{
+    grid-column: span 2;
+}
+
+#call-button{
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+}
+a{
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+@media (max-width: 768px) { /* Update the maximum width value as needed */
+    .form {
+        grid-template-columns: 1fr; /* Change to single column at maximum width */
+    }
+}

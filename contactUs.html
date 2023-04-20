@@ -12,13 +12,30 @@
     <include src="./header.html"></include>
     <h1>Contact Us</h1>
     <p>Have a question?</p><br>
-    <p>Here's how to get in touch</p>
     <form action="link for the form" method="post">
         <p>Message us here</p>
-        <p>Name:<input type="text" id="name"></p>
-        <p>Mailing Address:<input type="text" value="Your mailing address"></p>
-        <p>City:<input name="city" value="Your city"></p>
-        <p>State:<INPUT NAME="state" value="your state"></p>
-    
+        <div class = "form">
+            <div class="divCell">
+                <label>First Name</label><br>
+                <input class = "formInput" type="text" id="name" placeholder="Your name e.g. John Smith">
+            </div>
+            <div class="divCell">
+                <label for = "city">Mailing Address</label><br>
+                <input class = "formInput" id = "Mailing Address" type="text" placeholder="Your mailing address e.g. 1234 Windham Street">
+            </div>
+            <div class="divCell">
+                <label for = "city">City</label><br>
+                <input class = "formInput" id="city" type="text" placeholder="Your city e.g. Chicago">
+            </div>
+            <div class="divCell">
+                <label for="state">State</label><br>
+                <input class = "formInput" id="state" type="text" placeholder="Your state e.g. Illinois">
+            </div>
+            <div class="multispanInput">
+                <label for="message">Your message</label><br>
+                <textarea id="message" rows="5" placeholder="Your message"></textarea>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
