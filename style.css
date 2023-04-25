@@ -24,10 +24,7 @@ li{
 ul{
     padding: 0%;
 }
-img{
-    float:left;
-    padding-right:1em;
-}
+
 
 .appliances{
     border: solid 1px black;
@@ -71,6 +68,20 @@ img{
     font-size: 2em;
     font-weight: bold;
     margin: 0%;
+}
+
+.specials-images{
+    width: 90vw;
+    height: auto;
+    max-width: 450px;
+    display: inline;
+    vertical-align: top;
+    float: none;
+}
+
+img{
+    float:left;
+    padding-right:1em;
 }
 
 #call-button{
