@@ -9,7 +9,28 @@
     <script src="https://unpkg.com/htmlincludejs"></script>
 </head>
 <body>
-    <include src="./header.html"></include>
+    <header>
+        <div id="nav-menu-open">
+            <include src="./header.html"></include>
+        </div> 
+        <div id="index-menu-bar">
+            <img 
+                height="80px" 
+                width="80px"
+                src="./img/ArmRepairLogo.png" 
+                alt="ARM Logo of a bent arm and closed fist holding wrench"
+            >
+            <h1 id="h1-arm">A.R.M.</h1>
+            <img 
+                id="menu-button-icon" 
+                class="menu-buttons" 
+                alt="menu icon"
+                src="./img/menu_icon_google_icons.png"
+                height="80px"
+                width="80px"
+            >
+        </div>
+    </header>
     <h1>About Us</h1>
     <p>
         Welcome to Appliance Repair and Maintenance! ARM is a household appliance repair and maintenance provider in 
@@ -83,13 +104,17 @@
             </p>
         </li>
     </ul>
+    <hr>
 
+    <footer>
+        Appliance Repair and Maintenance &copy; 2023 All Rights Reserved
+    </footer>
+
+    <!-- THIS SCRIPT TAG must be last in the body -->
+    <script type="text/javascript" src="./main.js" ></script>
+    <!-- DO NOT WRITE CODE BELOW -->
 </body>
 
-<hr>
 
-<footer>
-    Appliance Repair and Maintenance &copy; 2023 All Rights Reserved
-</footer>
 
 </html>

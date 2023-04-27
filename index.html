@@ -2,34 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A.R.M - Appliance Repair & Maintenance</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://unpkg.com/htmlincludejs"></script>
+    <script type="text/javascript" src="https://unpkg.com/htmlincludejs"></script>
+    
 </head>
 <body>
-    <include src="./header.html"></include>
-    <h1>A.R.M - Appliance Repair & Maintenance</h1>
-    <img src="https://www.pngkit.com/png/detail/120-1207914_auto-motive-repair-auto-repair-man.png" alt="Image of Repair Man" width="320" height="320">
+    <header>
+        <div id="nav-menu-open">
+            <include src="./header.html"></include>
+        </div> 
+        <div id="index-menu-bar">
+            <img 
+                height="80px" 
+                width="80px"
+                src="./img/ArmRepairLogo.png" 
+                alt="ARM Logo of a bent arm and closed fist holding wrench"
+            >
+            <h1 id="h1-arm">A.R.M.</h1>
+            <img 
+                id="menu-button-icon" 
+                class="menu-buttons" 
+                alt="menu icon"
+                src="./img/menu_icon_google_icons.png"
+                height="80px"
+                width="80px"
+            >
+        </div>
+    </header>
+    <div id="index-container">
+        <div id="index-titles-grid-container">
+            <div class="index-titles-grid-items"><p class="index-titles-ptags">Appliance</p>  </div>
+            <div class="index-titles-grid-items"><p class="index-titles-ptags">Repair</p>  </div>
+            <div class="index-titles-grid-items"><p class="index-titles-ptags">Maintenance</p>  </div>
+        </div>
+        
+        <img 
+            id="index-main-img" 
+            src="https://www.pngkit.com/png/detail/120-1207914_auto-motive-repair-auto-repair-man.png" 
+            alt="Image of Repair Man" 
+        >
 
-    <p>
-        We repair a variety of appliances.
-        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
-    </p>
-    <br>    
-    <p>
-        Need used or refurbished appliances? Have an old appliance you want gone, or just looking to sell? <a href="./forSale.html">Click Here!</a>
-    </p>
-    <br>
-    <h2>Directions to A.R.M.</h2>
-    <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11873.902099709587!2d-87.71852599218748!3d41.92563219999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcd635b424b09%3A0x85d5c160d7872d28!2sLogan%20Square%20Auto%20Repair!5e0!3m2!1sen!2sus!4v1678403690291!5m2!1sen!2sus" width="360" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <br>
-    <p><a href="tel:7734456879">(773)-445-6879</a></p>
-    <p><a href="mailto:fssfdkjfhskdhjf@yahoo.com">Email Us</a></p>
-    <p> <a href="https://goo.gl/maps/C1PFNbe9CJpQkiyGA">
-        2442 N Milwaukee, Chicago, IL 60647
-    </a></p>
+        <p class="p-descriptions">
+            We repair a variety of appliances.
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+        </p>   
+        <p class="p-descriptions" id="index-p-used-apps">
+            Need used or refurbished appliances? Have an old appliance you want gone, or just looking to sell? <a href="./forSale.html">Click Here!</a>
+        </p>
+        <br>
+        <h2>Directions to A.R.M.</h2>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11873.902099709587!2d-87.71852599218748!3d41.92563219999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcd635b424b09%3A0x85d5c160d7872d28!2sLogan%20Square%20Auto%20Repair!5e0!3m2!1sen!2sus!4v1678403690291!5m2!1sen!2sus" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <p><a href="tel:7734456879">(773)-445-6879</a></p>
+        <p><a href="mailto:fssfdkjfhskdhjf@yahoo.com">Email Us</a></p>
+        <p> <a href="https://goo.gl/maps/C1PFNbe9CJpQkiyGA">
+            2442 N Milwaukee, Chicago, IL 60647
+        </a></p>
+        <div class="copyrights">
+            <small><strong>&copy; A.R.M. - Appliance Repair and Maintenance</strong></small>
+            <br>
+            <small><strong>All rights reserved.</strong></small>
+        </div>
+    </div>
+    
+    <!-- THIS SCRIPT TAG must be last in the body -->
+    <script type="text/javascript" src="./main.js" ></script>
+    <!-- DO NOT WRITE CODE BELOW -->
 </body>
 </html>

@@ -4,7 +4,7 @@ html * {
     font-family: Nunito, sans-serif;
 }
 html header{
-    background-color: lightblue;
+    background-color: rgba(13, 7, 173, 0.581);
     margin: 0;
 }
 textarea {
@@ -24,7 +24,6 @@ li{
 ul{
     padding: 0%;
 }
-
 
 .appliances{
     border: solid 1px black;
@@ -70,6 +69,23 @@ ul{
     margin: 0%;
 }
 
+.p-descriptions {
+    clear: both;
+    min-width: 85vw;
+}
+
+#index-p-used-apps{
+    background-color:  rgba(190, 161, 215, 0.476);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 2%;
+    margin-top: 15%;
+    
+}
+
+
 .specials-images{
     width: 90vw;
     height: auto;
@@ -84,9 +100,73 @@ img{
     padding-right:1em;
 }
 
+#h1-arm {
+    display:inline;
+    color: whitesmoke;
+    text-shadow: darkblue 4px 2px;
+}
+
 #call-button{
     background-color: blue; /* Green */
 }
+
+#index-menu-bar {
+    display:flex; 
+    justify-content:space-between;
+}
+
+#index-main-img {
+    display: block;
+    margin: 5% auto;
+    padding-left:5%;
+    padding-right:5%; 
+    padding-bottom: 5%;
+    width: 80vw;
+    max-width: 100%;
+}
+
+#index-container {
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(246, 246, 246);
+}
+
+#index-titles-grid-container{
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
+    row-gap: 0px;
+}
+
+.index-titles-grid-items{
+    display:grid;
+    font-size: 1.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 2.5em;
+}
+
+.index-titles-ptags::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: .2em;
+    
+}
+.copyrights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid black 1px;
+    margin-top: 15%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
+}
+.copyrights > small {
+    justify-self: center;
+}
+
 a{
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
