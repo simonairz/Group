@@ -29,7 +29,14 @@ ul{
     border: solid 1px black;
 }
 .imgPeople{
-    margin-top: 3em;
+    margin-top: 0em;
+}
+
+.about-us-staff-description{
+    clear:left;
+    padding: 5% 0;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
 }
 
 .button {
@@ -64,7 +71,7 @@ ul{
 }
 
 .nameTitle{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 0%;
 }
@@ -85,11 +92,25 @@ ul{
     
 }
 
+.specials-cards {
+    padding: 2%;
+    border-radius: 1em;
+    background-color: rgba(119, 0, 255, 0.128);
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+}
 
-.specials-images{
-    width: 90vw;
+.specials-cards > p:first-of-type {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.specials-cards:nth-child(even){
+    background-color: rgba(0, 38, 255, 0.144);
+}
+
+.specials-images {
+    width: 82vw;
     height: auto;
-    max-width: 450px;
     display: inline;
     vertical-align: top;
     float: none;
@@ -153,6 +174,13 @@ img{
     padding-right: .2em;
     
 }
+
+#specials-container {
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(246, 246, 246);
+}
+
 .copyrights {
     display: flex;
     flex-direction: column;
