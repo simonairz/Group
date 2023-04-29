@@ -1,0 +1,76 @@
+.about {
+    display: block;
+    text-align: center;
+    padding: 0 5%;
+
+}.about > .about_paragraph > p {
+    border-radius: 1em;
+    background-color: rgba(0, 38, 255, 0.144);
+    margin-bottom: 5%;
+}
+
+.meet {
+    display: block;
+    padding: 0 5%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.meet > h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.meet > p {
+    text-align: center;
+    margin-left: 5%;
+    float: left;
+}
+
+.staff {
+    border-radius: 1em;
+    background-color: rgba(119, 0, 255, 0.128);
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.staff:nth-child(even) {
+    background-color: rgba(0, 38, 255, 0.144);
+}
+
+.imgPeople{
+    max-width: 450px;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appliances {
+    text-align: center;
+    padding: 2%;
+    border-radius: 1em;
+    background-color: rgba(119, 0, 255, 0.128);
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.appliances:nth-child(even) {
+    background-color: rgba(0, 38, 255, 0.144);
+}
+
+
+.sale_images {
+    width: 90vw;
+    height: auto;
+    max-width: 450px;
+    display: block;
+    /* vertical-align: top; */
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -21,15 +21,9 @@ li{
     list-style: none;
     text-indent: 0%;
 }
+
 ul{
     padding: 0%;
-}
-
-.appliances{
-    border: solid 1px black;
-}
-.imgPeople{
-    margin-top: 3em;
 }
 
 .button {
@@ -66,7 +60,7 @@ ul{
 .nameTitle{
     font-size: 2em;
     font-weight: bold;
-    margin: 0%;
+    /* margin: 0%; */
 }
 
 .p-descriptions {
