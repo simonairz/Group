@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="./style.css">
         <script src="https://unpkg.com/htmlincludejs"></script>
     </head>
-    <body>
+    <body class = "servicesPage">
         <header>
             <div id="nav-menu-open">
                 <include src="./header.html"></include>
@@ -33,53 +33,66 @@
         </header>
         <h1>Services We Offer</h1>
         <p>We work on a variety of brands and machines</p>
-        <p>Dishwashers</p>
-        <ul>
-            <li>Whirlpool</li>
-            <li>Samsung</li>
-            <li>LG</li>
-            <li>GE</li>
-        </ul>
+        <div class = "serviceContainer">
+            <div class = "serviceItem">
+                <p>Dishwashers</p>
+                <p class = "listItem">Whirlpool</p>
+                <p class = "listItem">Samsung</p>
+                <p class = "listItem">Bosch</p>
+                <p class = "listItem">GE</p>
+                <img src="./img/dishwasher.png" alt="dishwasher" class="serviceImg">
+            </div>
 
-        <p>Washers</p>
-        <ul>
-            <li>Whirlpool</li>
-            <li>Samsung</li>
-            <li>LG</li>
-            <li>GE</li>
-        </ul>
 
-        <p>Dryers</p>
-        <ul>
-            <li>Whirlpool</li>
-            <li>Samsung</li>
-            <li>LG</li>
-            <li>GE</li>
-        </ul>
+            <div class = "serviceItem">
+                <p>Washing Machine</p>
+                <p class = "listItem">Whirlpool</p>
+                <p class = "listItem">Samsung</p>
+                <p class = "listItem">LG</p>
+                <p class = "listItem">GE</p>
+                <img src="./img/Washing Machine.jpg" alt="Washing Machine" class="serviceImg">
+            </div>
 
-        <p>HVAC</p>
-        <ul>
-            <li>Window Units</li>
-            <li>Split Units</li>
-            <li>Central air</li>
-        </ul>
+            
+            <div class = "serviceItem">
+                <p>Dryers</p>
+                <p class = "listItem">Whirlpool</p>
+                <p class = "listItem">Samsung</p>
+                <p class = "listItem">LG</p>
+                <p class = "listItem">GE</p>
+                <img src="./img/dryer.jpg" alt="dryer" class="serviceImg">
+            </div>
 
-        <p>Refrigeration</p>
-        <ul>
-            <li>Whirlpool</li>
-            <li>Samsung</li>
-            <li>LG</li>
-            <li>GE</li>
-        </ul>
+            
+            <div class = "serviceItem">
+                <p>HVAC</p>
+                <p class = "listItem">Window Units</p>
+                <p class = "listItem">Split Units</p>
+                <p class = "listItem">Central air</p>
+                <img src="./img/ac.jpg" alt="AC unit" class="serviceImg">
+            </div>
 
-        <p>Inspections</p>
-        <ul>
-            <li>Inspections are $65 each</li>
-        </ul>
+            
+            <div class = "serviceItem">
+                <p>Refrigeration</p>
+                <p class = "listItem">Frigidaire</p>
+                <p class = "listItem">Samsung</p>
+                <p class = "listItem">Whirlpool</p>
+                <p class = "listItem">GE</p>
+                
+                <img src="./img/fridge.webp" alt="Fridge" class="serviceImg">
+            </div>
+
+            
+            <div class = "serviceItem">
+                <p>Inspections</p>
+                <p class = "listItem">Inspections are $65 each</p>
+            </div>
+        </div>
         <p>
             Prices may very from job to job. Call us for a quote
         </p>
-        <button id="call-button-services">Contact us</button>
+        <a href="tel:7734456879"><button id="call-button-services">Contact Us</button></a>
 
         <!-- THIS SCRIPT TAG must be last in the body -->
         <script type="text/javascript" src="./main.js" ></script>

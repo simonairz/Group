@@ -25,9 +25,27 @@ li{
 ul{
     padding: 0%;
 }
+/* Div container Parents  */
+.serviceContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #db76e8; /* Green */
     border: none;
     color: white;
     text-align: center;
@@ -69,7 +87,7 @@ ul{
 }
 
 #index-p-used-apps{
-    background-color:  rgba(190, 161, 215, 0.476);
+    background-color: rgba(13, 7, 173, 0.581);
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 3%;
@@ -103,6 +121,36 @@ ul{
     float: none;
 }
 
+.listItem{
+    line-height: 60%;
+    text-indent: 2em;
+}
+.servicesPage{
+    background-color: rgba(119, 0, 255, 0.128);;
+}
+.serviceItem{
+    padding: 2%;
+    border-radius: 1em;
+    background-color: white;
+    margin: 1em;
+    width: 20em;
+}
+.buttonHeader{
+    background-color: #db76e8; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: .25% ;
+    margin-bottom: 4px;
+    width:32%;
+}
+
+.serviceImg{
+    max-width: 100%;
+    max-height: 15em;
+}
 img{
     float:left;
     padding-right:1em;
@@ -116,6 +164,11 @@ img{
 
 #call-button{
     background-color: blue; /* Green */
+}
+
+#call-button-services{
+    background-color: blue;
+    
 }
 
 #index-menu-bar {
@@ -146,6 +199,9 @@ img{
     row-gap: 0px;
 }
 
+.call-img{
+    max-width: 4em;
+}
 .index-titles-grid-items{
     display:grid;
     font-size: 1.5em;
@@ -186,9 +242,98 @@ a{
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
 }
+.about {
+    display: block;
+    text-align: center;
+    padding: 0 5%;
+
+}.about > .about_paragraph > p {
+    border-radius: 1em;
+    background-color: rgba(0, 38, 255, 0.144);
+    margin-bottom: 5%;
+}
+
+.meet {
+    display: block;
+    padding: 0 5%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.meet > h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.meet > p {
+    text-align: center;
+    margin-left: 5%;
+    float: left;
+}
+
+.staff {
+    border-radius: 1em;
+    background-color: rgba(119, 0, 255, 0.128);
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.staff:nth-child(even) {
+    background-color: rgba(0, 38, 255, 0.144);
+}
+
+.imgPeople{
+    max-width: 450px;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appliances {
+    text-align: center;
+    padding: 2%;
+    border-radius: 1em;
+    background-color: rgba(119, 0, 255, 0.128);
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 5%;
+    max-width: 25em;
+}
+
+.appliances:nth-child(even) {
+    background-color: rgba(0, 38, 255, 0.144);
+}
+
+
+.sale_images {
+    max-width: 25em;
+    display: block;
+    /* vertical-align: top; */
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media (max-width: 768px) { /* Update the maximum width value as needed */
     .form {
         grid-template-columns: 1fr; /* Change to single column at maximum width */
+    }
+    .buttonHeader{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px ) and (min-width: 768px) { /* Update the maximum width value as needed */
+    .form {
+        grid-template-columns: 1fr; /* Change to single column at maximum width */
+    }
+    .buttonHeader{
+        width: 49%;
     }
 }
