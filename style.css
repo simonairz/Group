@@ -153,7 +153,7 @@ ul{
 }
 
 .buttonHeader:first-child{
-    padding-bottom: 2.0%;
+    padding-top: 2.0%;
 }
 
 .buttonHeader:last-child{
@@ -181,7 +181,8 @@ img{
 
 #call-button{
     font-size: 1.1em;
-    background-color: blue; /* Green */
+    background-color: blue; 
+    color: rgb(14, 247, 255);
     /* animation: upwards-bounce 0.750s infinite; */
     animation: jump-shaking 1.0s infinite;
 }
