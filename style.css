@@ -180,6 +180,7 @@ img{
 }
 
 #call-button{
+    font-size: 1.1em;
     background-color: blue; /* Green */
     /* animation: upwards-bounce 0.750s infinite; */
     animation: jump-shaking 1.0s infinite;
