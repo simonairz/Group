@@ -258,7 +258,6 @@ a{
     padding: 0 5%;
     text-align: center;
 }
-
 h1 {
     text-align: center;
     
@@ -274,12 +273,17 @@ h1 {
     margin-left: 5%;
     float: left;
 }
-
+.about_paragraph > p{
+    padding:1em;
+}
 .staff {
     border-radius: 1em;
     background-color: rgba(119, 0, 255, 0.128);
     margin-bottom: 5%;
-    padding-bottom: 5%;
+    padding:1em
+}
+.staff:nth-child(2n) {
+    background-color: rgba(0, 38, 255, 0.144);
 }
 .serviceDescription{
     text-align: center;
@@ -297,9 +301,6 @@ h1 {
 }
 
 
-.staff:nth-child(even) {
-    background-color: rgba(0, 38, 255, 0.144);
-}
 
 .imgPeople{
     max-width: 450px;
