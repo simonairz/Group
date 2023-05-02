@@ -284,10 +284,18 @@ h1 {
 .serviceDescription{
     text-align: center;
 }
-.serviceItem > p:first-child{
-    font-weight: bold;
-    font-size: 20px;
+
+.serviceItem > p{
+    text-align: left;
+    font-size: 1em;
 }
+
+.serviceItem > p:first-child{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 
 .staff:nth-child(even) {
     background-color: rgba(0, 38, 255, 0.144);
