@@ -10,7 +10,6 @@ html header{
 textarea {
     width: 100%;
     display: block;
-    
 }
 body{
     margin:0;
@@ -120,6 +119,10 @@ ul{
     display: inline;
     vertical-align: top;
     float: none;
+}
+
+.contactUs-p-pad-left {
+    padding-left: 1.5em;
 }
 
 .listItem{
