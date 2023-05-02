@@ -16,6 +16,10 @@ body{
     min-width: 360px;
 }
 
+img[src="./img/ArmRepairLogo.png"]{
+    margin-left: .7em;
+}
+
 li{
     list-style: none;
     text-indent: 0%;
