@@ -227,8 +227,15 @@ img{
 }
 
 #call-button-services{
-    background-color: blue;
-    
+    background-color: rgb(119, 75, 252);
+    font-size: 1.0em;
+    padding: .5em 1em;
+    border-radius: 1em;
+    color: azure;
+    width: 20em;
+    display: block;
+    margin: 0 auto;
+    box-shadow: darkslategray 3px 3px;
 }
 
 #index-menu-bar {
