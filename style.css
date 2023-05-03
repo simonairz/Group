@@ -73,7 +73,9 @@ ul{
 }
 
 .formInput{
-    width: 100%
+    width: 100%;
+    margin-bottom: 1em; 
+    font-size: 1em;
 }
 .multispanInput{
     grid-column: span 2;
@@ -112,6 +114,25 @@ ul{
     text-shadow: white 2px 4px ;
 }
 
+#contactUs-message-us {
+    
+    font-size: 1.25em;
+}
+
+#contactUs-have-any-questions {
+    text-align:center;
+    font-style: italic;
+    font-weight: initial;
+    color: #500089;
+}
+
+#submit-btn {
+    margin-top: 1em;
+    width: 100%;
+    padding: .5em 0;
+    font-size: 1em;
+}
+
 .specials-cards {
     padding: 2%;
     border-radius: 1em;
@@ -134,11 +155,6 @@ ul{
     display: inline;
     vertical-align: top;
     float: none;
-}
-
-.contactUs-p-pad-left {
-    /* padding-left: 1.5em; */
-    text-align:center;
 }
 
 .listItem{

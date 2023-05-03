@@ -32,17 +32,29 @@
         </div>
     </header>
     <h1>Contact Us</h1>
-    <h3 class="contactUs-p-pad-left">Have a question?</h3>
+    <h3 id="contactUs-have-any-questions">
+        <q>Have any questions?</q>   
+    </h3>
     <form action="link for the form" method="post">
-        <p class="contactUs-p-pad-left"><strong>Message us here:</strong></p>
         <div class = "form">
+            <p id="contactUs-message-us">
+                <strong>Message us here:</strong>
+            </p>
             <div class="divCell">
-                <label>First Name</label><br>
-                <input class = "formInput" type="text" id="name" placeholder="Your name e.g. John Smith">
+                <label>Full Name</label><br>
+                <input class = "formInput" type="text" id="name" placeholder="Your name e.g. John Smith" required>
+            </div>
+            <div class="divCell">
+                <label for = "email">E-mail Address</label><br>
+                <input class = "formInput" id = "email" type="text" placeholder="E.g. johnsmith@hotmail.com" required>
+            </div>
+            <div class="divCell">
+                <label for = "phone">Phone Number</label><br>
+                <input class = "formInput" id = "phone" type="text" placeholder="E.g. 3124564309" maxlength="10" required>
             </div>
             <div class="divCell">
                 <label for = "city">Mailing Address</label><br>
-                <input class = "formInput" id = "Mailing Address" type="text" placeholder="Your mailing address e.g. 1234 Windham Street">
+                <input class = "formInput" id = "Mailing Address" type="text" placeholder="E.g. 1234 Windham Street">
             </div>
             <div class="divCell">
                 <label for = "city">City</label><br>
@@ -54,10 +66,10 @@
             </div>
             <div class="multispanInput">
                 <label for="message">Your message</label><br>
-                <textarea id="message" rows="5" placeholder="Your message"></textarea>
+                <textarea id="message" rows="5" placeholder="Your message " required></textarea>
             </div>
             <div>
-                <button>Submit</button>
+                <button id="submit-btn">Submit</button>
             </div>
         </div>
     </form>
