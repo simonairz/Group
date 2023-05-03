@@ -98,7 +98,17 @@ ul{
     padding-bottom: 3%;
     border-radius: 2%;
     margin-top: 15%;
-    
+}
+
+#index-p-used-apps a:link{
+    color: #f9d7fe;
+    font-weight: bold;
+    text-shadow: #500089 4px 4px 10px;
+}
+
+#index-p-used-apps a:visited{
+    color: #ffc767;
+    text-shadow: white 2px 4px ;
 }
 
 .specials-cards {
@@ -161,7 +171,7 @@ ul{
 }
 
 .buttonHeader:last-child{
-    padding-bottom: 2.0%;
+    padding-bottom: 4.0%;
 }
 
 header > a {
@@ -185,8 +195,11 @@ img{
 
 #call-button{
     font-size: 1.1em;
-    background-color: blue; 
-    color: rgb(14, 247, 255);
+    font-weight: bold;
+    background-color: rgb(119, 75, 252); 
+    /* background-color: rgba(240, 146, 69, 0.934); */
+    color: oldlace;
+    text-shadow: rgb(23, 0, 33) 2px 2px 10px;
     /* animation: upwards-bounce 0.750s infinite; */
     animation: jump-shaking 1.0s infinite;
 }
