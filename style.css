@@ -224,6 +224,7 @@ img{
     text-shadow: rgb(23, 0, 33) 2px 2px 10px;
     /* animation: upwards-bounce 0.750s infinite; */
     animation: jump-shaking 1.0s infinite;
+    border-bottom: solid black .2em;
 }
 
 #call-button-services{
