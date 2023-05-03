@@ -137,7 +137,8 @@ ul{
 }
 
 .contactUs-p-pad-left {
-    padding-left: 1.5em;
+    /* padding-left: 1.5em; */
+    text-align:center;
 }
 
 .listItem{
@@ -173,6 +174,10 @@ ul{
 
 .buttonHeader:last-child{
     padding-bottom: 4.0%;
+}
+
+.buttonHeader:hover{
+    font-size: 1.5em;
 }
 
 header > a {
